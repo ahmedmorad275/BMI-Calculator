@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Cairo', sans-serif;
+}
+
+.container {
+   max-width: 1170px;
+   width: 90%;
+   margin: 40px auto;
+   background-color: #eeeeee;
+   text-align: center;
+   border-radius: 10px;
+   padding-bottom: 10px;
+}
+
+.weight,
+.height {
+   padding: 15px;
+   margin: 0px auto 0;
+   /* background-color: #d25d5d; */
+   border-radius: 10px;
+   width: 320px;
+}
+
+.weight p,
+.height p {
+   margin: 15px;
+   background-color: #d25d5d;
+   border-radius: 10px;
+   color: white;
+}
+
+.result {
+   margin: 20px;
+   padding: 10px;
+}
+
+#height,
+#weight {
+   width: 240px;
+   height: 30px;
+   border: none;
+   outline: transparent;
+   border-radius: 10px;
+   padding: 10px;
+   font-size: 18px;
+   box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.5);
+}
+
+.btn {
+   background-color: #e7d3d3;
+   color: #d25d5d;
+   border-radius: 10px;
+   padding: 10px;
+   font-size: 22px;
+   font-weight: 800;
+   border: none;
+   outline: transparent;
+   box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.5);
+   cursor: pointer;
+   width: 100px;
+   margin: 10px 0 0;
+}
+
+.btn:hover {
+   background-color: #e0bebe;
+}
+
+.result p:first-child {
+   width: 240px;
+   height: 30px;
+   background-color: #d25d5d;
+   margin: auto;
+   border-radius: 10px;
+   padding: 10px;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   color: white;
+   gap: 10px;
+   box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.5);
+}
+
+.rank {
+   display: none;
+}
+
+.rank-ar {
+   display: flex;
+   width: 240px;
+   height: 30px;
+   background-color: #d25d5d;
+   margin: 20px auto;
+   border-radius: 10px;
+   padding: 10px;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.5);
+}

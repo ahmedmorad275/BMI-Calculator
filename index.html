@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>BMI</title>
+      <link rel="stylesheet" href="style.css" />
+      
+   </head>
+   <body>
+      <div class="container">
+         <div class="weight">
+            <p>يرجي إدخل الوزن بالكيلوجرام</p>
+            <input type="number" id="weight" required/>
+         </div>
+         <div class="height">
+            <p>يرجي إدخال الطول بالمتر</p>
+            <input type="number" id="height" required />
+         </div>
+         <div class="button">
+            <button id="btn" class="btn">احسب</button>
+         </div>
+         <div class="result">
+            <p>BMI = <span id="bmi"></span></p>
+            <p id="rank" class="rank"></p>
+         </div>
+      </div>
+   </body>
+   <script src="bmi.js"></script>
+</html>
