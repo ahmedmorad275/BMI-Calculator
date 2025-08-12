@@ -8,6 +8,9 @@
 
 body {
    font-family: 'Cairo', sans-serif;
+   display: flex;
+   height: 100vh;
+   align-items: center;
 }
 
 .container {
@@ -97,7 +100,7 @@ body {
    width: 240px;
    height: 30px;
    background-color: #d25d5d;
-   margin: 20px auto;
+   margin: 20px auto 0;
    border-radius: 10px;
    padding: 10px;
    font-size: 18px;
